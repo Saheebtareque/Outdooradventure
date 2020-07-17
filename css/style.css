@@ -1,0 +1,93 @@
+*{margin:0;
+padding:0;
+box-sizing:border-box;
+box-sizing:border-box;
+box-sizing:border-box;}
+
+body{}
+header{
+	background-image: url(../images/mati.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #403931bd;
+	background-blend-mode: multiply;
+	padding: 20px;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+    text-transform: uppercase;
+}
+.logo h3{
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+.logo h3 span{
+    display: block;
+    font-size: 12px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+nav{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+nav ul{
+    dispay: flex;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 700px;
+    font-weight: 700;
+    border: 2px #ffffff00 solid;
+    border-radius: 30px;
+    font-size: -16px;
+    letter-spacing: 0.2px;
+}
+
+nav ul li:last-child a{border: 2px white solid;
+	border-radius: 30px;
+}
+nav ul li a:hover{
+	/* color:black; */
+	border: 2px white solid;
+	border-radius: 30px;
+}
+
+.lekha{
+    flex-basis: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 34px;
+    color: #e3dddd;
+}
+.lekha h3{
+    font-style: italic;
+}
+.lekha span{}
+.lekha span{}
+.lekha h1{
+    text-transform: uppercase;
+    display: block;
+}
+.lekha a {}
+.learnmore{height: 49px;color:white;text-decoration:none;text-transform:uppercase;background-color:red;border-radius:30px;display:inline-block;font-weight:500px;height: 69px;height: 38px;letter-spacing:1.8;font-size: 20px;width: 169px;padding: 7px;font-weight: 600;font-weight: 700px;font-weight: 500px;}
